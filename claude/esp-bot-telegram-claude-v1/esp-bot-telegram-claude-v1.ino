@@ -19,7 +19,7 @@ const int sensorPin = A0; // Pin analógico para sensor (opcional)
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
-// Variables de tiempo
+// Variables de tiempo 
 unsigned long lastTimeBotRan;
 unsigned long startMillis;
 unsigned long lastHeartbeat = 0;
